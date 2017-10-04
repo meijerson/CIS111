@@ -1,0 +1,49 @@
+html * {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 140%;
+}
+
+h2 {
+	font-size: 140%;
+}
+
+h3 {
+	font-size: 110%;
+}
+
+#biggest {
+	font-size: 200%;
+	color: orange;
+	font-style: italic;
+	text-shadow: 2px 2px black;
+}
+
+h1 span {
+	font-size: 230%;
+}
+
+header img {
+	float: left;
+	padding-right: 2%;
+}
+
+a {
+	color: orange;
+	font-weight: bold;
+}
+
+a:hover {
+	color: green;
+}
+
+ul li {
+	line-height: 130%;
+}
+
+footer {
+	text-align: center;
+	font-size: 90%;
+}
