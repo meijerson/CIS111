@@ -1,0 +1,167 @@
+
+#current a {
+	width: 50px;
+	color: orange;
+}
+
+html * {
+	font-family: sans-serif;
+}
+
+html {
+	background-image: url("../images/bat.gif");
+}
+
+h1 {
+	font-size: 140%;
+}
+
+h2 {
+	font-size: 140%;
+}
+
+h3 {
+	font-size: 110%;
+}
+
+#biggest {
+	padding-top: 0%;
+	font-size: 200%;
+	font-weight: 900;
+	//color: orange;
+	//font-style: italic;
+	//text-shadow: 2px 2px black;
+}
+
+h1 span {
+	font-size: 230%;
+}
+
+header img {
+	float: left;
+	padding-right: 2%;
+	padding-top: 4%;
+	padding-left: 2%;
+}
+
+aside a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	color: green;
+}
+
+aside ul li {
+	border: black solid;
+	line-height: 130%;
+	list-style: none;
+	padding: 10px;
+	margin-bottom: 2px;
+	background-color: orange;
+}
+
+footer {
+	text-align: center;
+	font-size: 90%;
+	border-top: solid black;
+	border-bottom: solid black;
+	background: white;
+	background: -webkit-linear-gradient(-130deg, white, orange 66%, black);
+	background: -o-linear-gradient(-130deg, white, orange 66%, black);
+	background: -moz-linear-gradient(-130deg, white, orange 66%, black);
+	background: linear-gradient(-130deg, white, orange 66%, black);
+	clear: both;
+}
+
+body {
+	border-left: solid black;
+	margin-left: 2%;
+	width: 800px;
+	background: white;
+	border-style: solid;
+	box-shadow: 0px 5px 20px 15px;
+}
+
+#background {
+	z-index: -1;
+}
+
+header {
+	border-bottom: solid black;
+	border-top: solid black;
+	background: white;
+	background: -webkit-linear-gradient(45deg, white, orange 66%, black);
+	background: -o-linear-gradient(45deg, white, orange 66%, black);
+	background: -moz-linear-gradient(45deg, white, orange 66%, black);
+	background: linear-gradient(45deg, white, orange 66%, black);
+}
+
+main {
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+	
+
+section {
+	float: right;
+	width: 550px;
+}
+
+aside {
+	display: block;
+	float: left;
+	width: 160px;
+	text-color: black;
+}
+
+article {
+	margin: 0px;
+	float: right;
+	width: 550px;
+}
+
+#nav_menu ul {
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #333;
+}
+
+#nav_menu ul li {
+	display: table-cell;
+	text-align: center;
+}
+
+#nav_menu ul li a {
+	display: block;
+	width:100%;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+
+#nav_menu ul li a:hover {
+	color: green;
+}
+
+#nav_menu ul li:hover ul {
+	display: inline;
+}
+
+#nav_menu ul li ul {
+	display: none;
+}
+
+#nav_menu ul li ul li a {
+	display: block;
+}

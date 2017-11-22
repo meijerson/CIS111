@@ -1,0 +1,33 @@
+// learnlayout.com/clearfix.html
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+		-moz-boz-sizing: border-box;
+			box-sizing: border-box;
+}
+
+header {
+	
+}
+
+header img {
+	float: left;
+	overflow: auto;
+}
+
+header nav {
+	clear: left;
+}
+
+section {
+	border: solid;
+}
+
+aside {
+	border: solid;
+}
+
+footer {
+	border: solid;
+}
