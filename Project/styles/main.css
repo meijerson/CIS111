@@ -1,4 +1,5 @@
 // learnlayout.com/clearfix.html
+
 body {
 	max-width: 960px;
 	margin: 0 auto;
@@ -7,27 +8,178 @@ body {
 			box-sizing: border-box;
 }
 
+#siteDescription {
+	text-align: center;
+	//padding-top: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: #d8cb6a;
+	background-color: #d8cb6a;
+	margin-right: 35%;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+#siteDescription h2 {
+	color: #368bd1;
+}
+
+h2, h3, li, p, label, aside, aside p, table {
+	font-family: Arial;
+}
+
 header {
 	
 }
 
 header img {
 	float: left;
-	overflow: auto;
 }
 
 header nav {
 	clear: left;
 }
 
-section {
-	border: solid;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
 }
 
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #bcaf4d;
+}
+
+.current {
+	background-color: #d8cb6a;
+	color: black;
+}
+
+section {
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section p {
+	font-size: 120%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.container {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	/*transition: ease-in-out, width .35s ease-in-out;*/
+}
+
+input[type=submit] {
+	background-color: #368bd1;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #2f7ab7;
+}
+
+#submitButton {
+	text-align: center;
+}
+
+#tools {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tools td, #tools th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tools tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+#tools tr:hover {
+	background-color: #ddd;
+}
+
+#tools th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #368bd1;
+	color: white;
+}
+
+
+
 aside {
-	border: solid;
+	//border: solid;
+	float: right;
+	margin: 0 1.5%;
+	width: 30%;
+	text-align: center;
+}
+
+aside img {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border: solid #368bd1;
+}
+
+aside p {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 footer {
-	border: solid;
+	font-weight: bold;
+	border-top: 2px solid;
+	border-radius: 5px;
+	border-color: #368bd1;
+	//border: 1px solid;
+	clear: both;
+	text-align: center;
 }
