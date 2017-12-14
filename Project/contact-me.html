@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<title>Piano World - Contact Me</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/main.css">
+	<title>Piano World</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main3.css">
 </head>
-
 <body>
-	<header>
-		<a href="index.html">
-			<img src="images/logo.png" alt="Piano Logo">
-		</a>
-		<br>
-		<div id="siteDescription">
-			<h2>Piano World!</h2>
-			<h3>Lessons, Tips, Tools, and More.</h3>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="images/logo.png" alt="Piano Logo" class="float-left">
+			</div>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<span> <a href="index.html" class="navbar-brand">Piano World</a></span>
+			</div>
+			<ul class="nav navbar-nav">
 				<li><a href="first-lessons.html">First Lessons</a></li>
 				<li><a href="practice-tips.html">Practice Tips</a></li>
-				<li><a href="tools.html">Tools</a>
-				<li><a class="current" href="contact-me.html">Contact Me</a></li>
+				<li><a href="tools.html">Tools</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="currentpage" href="contact-me.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+				<h2 class="centered">Contact Form</h2>
+				<form action="#">
+					<div class="form-group">
+						<label for="name">Your Name:</label>
+						<input type="text" class="form-control" id="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Your Email:</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="form-group">
+						<label for="message">Your Message:</label>
+						<input type="text" class="form-control" id="message">
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox">Would you like to be contacted about piano lessons?</label>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				
+				</div>
+				<div class="col-sm-4">
+					<img src="images/piano.jpg" alt="Piano keys">
+					<h2>Piano tip of the week!</h2>
+					<p>When teaching a very young piano student for the first time, they may not know their right hand from their left. Put a sticker on each one of their hands - "L" for left, and "R" for right!
+					<br><br>Soon they will remember which hand is which without the stickers. If you do not have stickers, with the parent's permission you can write the letters on their hand.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footercenter">
+		<nav class="navbar navbar-inverse">
+			<ul class="nav navbar-nav navbar-center">
+				<li><a href="#">&copy; 2017 Mackenzie Bloswick</a></li>
 			</ul>
 		</nav>
-	</header>
-	
-	<main>
-		<section>
-			<h2>Contact Form</h2>
-			<div class="container">
-				<form action="/contact-me.html">		
-					<label for="firstName">First Name</label>
-					<input type="text" id="firstName" name="firstName" placeholder="First name here..">
-					
-					<label for ="lastName">Last Name</label>
-					<input type="text" id="lastName" name="lastName" placeholder="Last name here..">
-					
-					<label for="message">Your Message</label>
-					<input type="text" id="message" name="message" placeholder="Message here..">
-					
-					<div id="submitButton">
-						<input type="submit" value="Submit">
-					</div>
-				</form>
-			</div>
-		</section>
-		
-		<aside>
-			<img src="images/piano.jpg" alt="Piano keys">
-			<h2>Piano tip of the week!</h2>
-			<p>When teaching a very young piano student for the first time, they may not know their right hand from their left. Put a sticker on each one of their hands - "L" for left, and "R" for right!
-			<br><br>Soon they will remember which hand is which without the stickers. If you do not have stickers, with the parent's permission you can write the letters on their hand.</p>
-		</aside>
-		
-		<footer>
-			<p>&copy; 2017 Mackenzie Bloswick</p>
-		</footer>
-	</main>
-</body>
-</html>
+		</div>
+	</footer>
+	</body>

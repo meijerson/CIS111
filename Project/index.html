@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
 	<title>Piano World</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main3.css">
 </head>
-
 <body>
-	<header>
-		<img src="images/logo.png" alt="Piano Logo">
-		<br>
-		<div id="siteDescription">
-			<h2>Piano World!</h2>
-			<h3>Lessons, Tips, Tools, and More.</h3>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="images/logo.png" alt="Piano Logo" class="float-left">
+			</div>
 		</div>
-		<nav>
-			<ul>
-				<li><a class="current" href="index.html">Home</a></li>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<span class="current"> <a href="index.html" class="navbar-brand">Piano World</a></span>
+			</div>
+			<ul class="nav navbar-nav">
 				<li><a href="first-lessons.html">First Lessons</a></li>
 				<li><a href="practice-tips.html">Practice Tips</a></li>
-				<li><a href="tools.html">Tools</a>
+				<li><a href="tools.html">Tools</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 				<li><a href="contact-me.html">Contact Me</a></li>
 			</ul>
-		</nav>
-	</header>
-	
+		</div>
+	</nav>
 	<main>
-		<section>
-			<h2>Our Mission</h2>
-			<p>It is our hope that we will facilitate every piano student's success by providing the necessary tools and information for teachers and parents around the world.</p>
-			<h2>You CAN Do This!</h2>
-			<p>Are you a parent who has never played piano before but would like your children to learn how to play? Can you not afford to pay for their lessons at this time in your life? We've provided countless families with the instruction needed to give kids a strong foundation in music, all from the comfort and convenience of your own home. You do not need to be musically inclined, just follow our simple instructions and you will have beautiful music being played in your home in no time.</p>
-		</section>
-		
-		<aside>
-			<img src="images/parent.jpg" alt="Student and parent">
-			<h2>Piano tip of the week!</h2>
-			<p>When teaching a very young piano student for the first time, they may not know their right hand from their left. Put a sticker on each one of their hands - "L" for left, and "R" for right!
-			<br><br>Soon they will remember which hand is which without the stickers. If you do not have stickers, with the parent's permission you can write the letters on their hand.</p>
-		</aside>
-		
-		<footer>
-			<p>&copy; 2017 Mackenzie Bloswick</p>
-		</footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>Our Mission</h2>
+					<p>It is our hope that we will facilitate every piano student's success by providing the necessary tools and information for teachers and parents around the world.</p>
+					<h2>You CAN Do This!</h2>
+					<p>Are you a parent who has never played piano before but would like your children to learn how to play? Can you not afford to pay for their lessons at this time in your life? We've provided countless families with the instruction needed to give kids a strong foundation in music, all from the comfort and convenience of your own home. You do not need to be musically inclined, just follow our simple instructions and you will have beautiful music being played in your home in no time.</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/parent.jpg" alt="Student and parent">
+					<h2>Piano tip of the week!</h2>
+					<p>When teaching a very young piano student for the first time, they may not know their right hand from their left. Put a sticker on each one of their hands - "L" for left, and "R" for right!
+					<br><br>Soon they will remember which hand is which without the stickers. If you do not have stickers, with the parent's permission you can write the letters on their hand.</p>
+				</div>
+			</div>
+		</div>
 	</main>
-</body>
-</html>
+	<footer>
+		<div class="footercenter">
+		<nav class="navbar navbar-inverse">
+			<ul class="nav navbar-nav navbar-center">
+				<li><a href="#">&copy; 2017 Mackenzie Bloswick</a></li>
+			</ul>
+		</nav>
+		</div>
+	</footer>
+	</body>
